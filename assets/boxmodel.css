@@ -3,4 +3,19 @@
   height: 500px;
   background-color: aquamarine;
   border: 2px solid black;
+  padding: 30px; /* il padding è la spaziatura INTERNA, tra il border e il contenuto */
+  margin: 10px; /* il margin è la spaziatura ESTERNA, tra un elemento e gli altri */
+  /* scorciatoie: */
+  /* 1 valore */
+  /* margin: tutti-i-lati */
+  /* 2 valori */
+  /* margin: sopra-sotto destra-sinistra */
+  /* 3 valori */
+  /* margin: sopra destra-sinistra sotto */
+  /* 4 valori */
+  /* margin: sopra destra sotto sinistra */
 }
+
+/* la proprietà box-sizing determina COME verrà calcolato l'ingombro di un elemento: */
+/* content-box -> l'altezza e la larghezza di un elemento verranno addizionate di padding e border */
+/* border-box -> l'altezza e la larghezza di un elemento includeranno già il padding e il border */
