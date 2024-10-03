@@ -19,3 +19,21 @@
 /* la proprietà box-sizing determina COME verrà calcolato l'ingombro di un elemento: */
 /* content-box -> l'altezza e la larghezza di un elemento verranno addizionate di padding e border */
 /* border-box -> l'altezza e la larghezza di un elemento includeranno già il padding e il border */
+
+/* aggiungiamo anche delle regole css nostre per gli stili base */
+h1 {
+  font-size: 2em;
+  margin: 0.5em 0; /* 1em sopra, 1em sotto, 0 destra, 0 sinistra */
+  font-weight: bold; /* grassetto */
+  text-align: center; /* centra il titolo */
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.5em 0; /* 0.5em sopra, 0.5em sotto, 0 destra, 0 sinistra */
+  text-align: center;
+}
+
+p {
+  margin: 0.5em 0;
+}

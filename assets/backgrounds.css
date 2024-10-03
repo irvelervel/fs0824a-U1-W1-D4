@@ -1,0 +1,19 @@
+/* ripristiniamo qualche stile di base */
+h1 {
+  font-size: 2em;
+  font-weight: bold; /* 700, cioè "grassetto" */
+  margin-bottom: 0.5em;
+  text-align: center;
+  text-transform: uppercase; /* porto il testo in maiuscolo */
+}
+
+/* alternativa per selezionare il primo box... */
+/* section > div:nth-of-type(1) {} */
+#box1 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 1em;
+  /* assegno un'immagine perfettamente "compatibile" */
+  background-image: url(https://placedog.net/300/200);
+}
